@@ -43,3 +43,9 @@ Thumbs.db
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# TEMP #
+########
+generic.html
+elements.html
+landing.html
