@@ -3195,4 +3195,8 @@ body.is-menu-visible #menu .inner {
   visibility: visible;
 }
 
+#main .my_skills {
+  background-color: #757575;
+}
+
 /*# sourceMappingURL=main.css.map */
