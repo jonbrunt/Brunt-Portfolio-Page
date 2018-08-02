@@ -2420,7 +2420,7 @@ button:disabled,
 .spotlights > section > .content > .inner {
   margin: 0 auto;
   max-width: 100%;
-  width: 65em;
+  width: 35em;
 }
 .spotlights > section:nth-child(2n) {
   -moz-flex-direction: row-reverse;
@@ -2627,10 +2627,10 @@ button:disabled,
   animation: reveal-header 0.35s ease;
 }
 #header.alt {
-  -moz-transition: opacity 2.5s ease;
-  -webkit-transition: opacity 2.5s ease;
-  -ms-transition: opacity 2.5s ease;
-  transition: opacity 2.5s ease;
+  -moz-transition: opacity 1.5s ease;
+  -webkit-transition: opacity 1.5s ease;
+  -ms-transition: opacity 1.5s ease;
+  transition: opacity 1.5s ease;
   -moz-transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
   -ms-transition-delay: 0.75s;
@@ -2745,10 +2745,10 @@ body.is-preload #header.alt {
   top: -3.25em;
 }
 #banner:after {
-  -moz-transition: opacity 2.5s ease;
-  -webkit-transition: opacity 2.5s ease;
-  -ms-transition: opacity 2.5s ease;
-  transition: opacity 2.5s ease;
+  -moz-transition: opacity 1.5s ease;
+  -webkit-transition: opacity 1.5s ease;
+  -ms-transition: opacity 1.5s ease;
+  transition: opacity 1.5s ease;
   -moz-transition-delay: 0.75s;
   -webkit-transition-delay: 0.75s;
   -ms-transition-delay: 0.75s;
@@ -2808,10 +2808,11 @@ body.is-preload #header.alt {
   margin-right: 0;
 }
 #banner > .inner .content p {
-  font-size: 0.7em;
+  font-size: 0.75em;
   font-weight: 600;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.35em;
   text-transform: uppercase;
+  line-height: 1.5em;
 }
 #banner.major {
   height: 75vh;
@@ -2902,7 +2903,7 @@ body.is-preload #banner > .inner {
 #main > * > .inner {
   padding: 4em 0 2em 0;
   margin: 0 auto;
-  max-width: 65em;
+  max-width: 35em;
   width: calc(100% - 6em);
 }
 @media screen and (max-width: 736px) {
@@ -3025,7 +3026,7 @@ body.is-preload #banner > .inner {
 #wrapper > * > .inner {
   padding: 4em 0 2em 0;
   margin: 0 auto;
-  max-width: 65em;
+  max-width: 35em;
   width: calc(100% - 6em);
 }
 @media screen and (max-width: 736px) {
