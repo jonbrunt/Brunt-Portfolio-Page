@@ -3201,4 +3201,8 @@ body.is-menu-visible #menu .inner {
   background-color: #757575;
 }
 
+#contact .contact_form {
+  max-width: 1000px;
+}
+
 /*# sourceMappingURL=main.css.map */
