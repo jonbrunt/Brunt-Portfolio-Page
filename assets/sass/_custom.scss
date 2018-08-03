@@ -6,3 +6,18 @@
 #contact .contact_form {
   max-width: 1000px;
 }
+// personal logo in banner
+.my_logo {
+  max-width: 140px;
+  margin-left: 10%;
+
+  @include breakpoint('<=medium') {
+    max-width: 100px;
+  }
+}
+// formatting issues in banner
+.custom_logo {
+    h1 {
+      margin-bottom: -10px;
+    }
+}

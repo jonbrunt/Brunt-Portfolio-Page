@@ -3205,4 +3205,18 @@ body.is-menu-visible #menu .inner {
   max-width: 1000px;
 }
 
+.my_logo {
+  max-width: 140px;
+  margin-left: 10%;
+}
+@media screen and (max-width: 980px) {
+  .my_logo {
+    max-width: 100px;
+  }
+}
+
+.custom_logo h1 {
+  margin-bottom: -10px;
+}
+
 /*# sourceMappingURL=main.css.map */
