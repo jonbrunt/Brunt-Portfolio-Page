@@ -327,3 +327,14 @@
 			});
 
 })(jQuery);
+
+// toggles class on show/hide button in "oldies"
+const oldies = document.querySelector('.oldies_button');
+const oldiesSection = document.querySelector('.oldies_toggle');
+let status = false;
+oldies.onclick = () => {
+	oldiesSection.classList.toggle('oldies_hidden');
+	status = !status;
+	let oldiesText = status ? 'Hide' : 'More Projects';
+	oldies.innerText = oldiesText;
+}
