@@ -12,13 +12,13 @@
 		cursor: default;
 		font-weight: _font(weight-bold);
 		height: 3.25em;
-		left: 0;
 		letter-spacing: _font(letter-spacing-alt);
 		line-height: 3.25em;
 		margin: 0;
 		position: fixed;
 		text-transform: uppercase;
 		top: 0;
+		max-width: 1400px;
 		width: 100%;
 		z-index: _misc(z-index-base);
 
