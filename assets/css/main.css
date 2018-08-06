@@ -3199,14 +3199,6 @@ body.is-menu-visible #menu .inner {
   visibility: visible;
 }
 
-#main .my_skills {
-  background-color: #757575;
-}
-
-#contact .contact_form {
-  max-width: 1000px;
-}
-
 .my_logo {
   max-width: 140px;
   margin-left: 10%;
@@ -3221,8 +3213,20 @@ body.is-menu-visible #menu .inner {
   margin-bottom: -10px;
 }
 
+#main .my_skills {
+  background-color: #757575;
+}
+
 .oldies_hidden {
   display: none;
+}
+
+.custom_contact {
+  border: 1px solid rgba(212, 212, 255, 0.1);
+}
+
+#contact .contact_form {
+  max-width: 1000px;
 }
 
 .custom_footer {

@@ -1,12 +1,6 @@
-// adjust background color of Skills/Tech div
-#main .my_skills {
-  background-color: #757575;
-}
-// adjust width of contact form
-#contact .contact_form {
-  max-width: 1000px;
-}
-// personal logo in banner
+// customizations
+
+// personal logo modifications/CSS
 .my_logo {
   max-width: 140px;
   margin-left: 10%;
@@ -15,17 +9,35 @@
     max-width: 100px;
   }
 }
-// formatting issues in banner
+
+// format fix in banner
 .custom_logo {
     h1 {
       margin-bottom: -10px;
     }
 }
-// toggle oldies class
+
+// adjust background color of Skills/Tech div
+#main .my_skills {
+  background-color: #757575;
+}
+
+// toggle oldies class visibility
 .oldies_hidden {
   display: none;
 }
 
+// add border to top and left/right of contact div
+.custom_contact {
+  border: 1px solid _palette(border);
+}
+
+// adjust width of contact form
+#contact .contact_form {
+  max-width: 1000px;
+}
+
+// center text in footer
 .custom_footer {
   text-align: center;
 }
