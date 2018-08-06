@@ -338,3 +338,20 @@ oldies.onclick = () => {
 	let oldiesText = status ? 'Hide' : 'More Projects';
 	oldies.innerText = oldiesText;
 }
+
+// security for contact information
+// email
+const protectEmail = document.querySelector('#contact .email');
+const codedEmail = '>n/<zbp.gaheozw^&anugnabw>"zbp.gaheozw&^anugnabw:bgyvnz"=sreu n<'
+const decode13 = str => {
+  return str.replace(/[a-zA-Z]/g, c => String.fromCharCode((c <= 'Z' ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26)).replace(/\^\&/g, '@');
+}
+protectEmail.innerHTML = decode13(codedEmail).split('').reverse().join('');
+
+// phone
+const protectPhone = document.querySelector('#contact .phone');
+const codedPhone = '1253-603)637(6+'
+const decode5 = str => {
+  return str.replace(/[0-9]/g, c => String.fromCharCode(57 >= (c = c.charCodeAt(0) + 5) ? c : c - 10));
+}
+protectPhone.innerText = decode5(codedPhone).split('').reverse().join('');
