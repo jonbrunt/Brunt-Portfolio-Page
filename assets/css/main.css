@@ -3199,17 +3199,18 @@ body.is-menu-visible #menu .inner {
   visibility: visible;
 }
 
-.my_logo {
+.custom_banner {
+  text-align: center;
+}
+.custom_banner img {
   max-width: 140px;
-  margin-left: 10%;
 }
 @media screen and (max-width: 980px) {
-  .my_logo {
+  .custom_banner img {
     max-width: 100px;
   }
 }
-
-.custom_logo h1 {
+.custom_banner h1 {
   margin-bottom: -10px;
 }
 

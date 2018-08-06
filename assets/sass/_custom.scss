@@ -1,20 +1,17 @@
 // customizations
 
-// personal logo modifications/CSS
-.my_logo {
-  max-width: 140px;
-  margin-left: 10%;
-
-  @include breakpoint('<=medium') {
-    max-width: 100px;
-  }
-}
-
-// format fix in banner
-.custom_logo {
-    h1 {
-      margin-bottom: -10px;
+// banner alignment
+.custom_banner {
+  text-align: center;
+  img {
+    max-width: 140px;
+    @include breakpoint('<=medium') {
+      max-width: 100px;
     }
+  }
+  h1 {
+    margin-bottom: -10px;
+  }
 }
 
 // adjust background color of Skills/Tech div
