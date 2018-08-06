@@ -2520,13 +2520,13 @@ button:disabled,
   cursor: default;
   font-weight: 600;
   height: 3.25em;
-  left: 0;
   letter-spacing: 0.25em;
   line-height: 3.25em;
   margin: 0;
   position: fixed;
   text-transform: uppercase;
   top: 0;
+  max-width: 1400px;
   width: 100%;
   z-index: 10000;
 }
@@ -3019,6 +3019,8 @@ body.is-preload #banner > .inner {
   -ms-transition: -ms-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
   transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
   padding-top: 3.25em;
+  max-width: 1400px;
+  margin: auto;
 }
 #wrapper.is-transitioning {
   opacity: 0;
@@ -3221,6 +3223,10 @@ body.is-menu-visible #menu .inner {
 
 .oldies_hidden {
   display: none;
+}
+
+.custom_footer {
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
