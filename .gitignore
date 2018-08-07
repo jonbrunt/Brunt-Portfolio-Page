@@ -39,7 +39,6 @@ Thumbs.db
 # MISC #
 ########
 .vscode/*
-!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -49,4 +48,3 @@ Thumbs.db
 generic.html
 elements.html
 landing.html
-settings.json
