@@ -3230,6 +3230,10 @@ body.is-menu-visible #menu .inner {
   max-width: 1000px;
 }
 
+#contact .security {
+  display: none;
+}
+
 .custom_footer {
   text-align: center;
 }
