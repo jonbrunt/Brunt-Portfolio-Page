@@ -340,18 +340,27 @@ oldies.onclick = () => {
 }
 
 // security for contact information
-// email
-const protectEmail = document.querySelector('#contact .email');
-const codedEmail = '>n/<zbp.gaheozw^&anugnabw>"zbp.gaheozw&^anugnabw:bgyvnz"=sreu n<'
+//ROT13 (letters)
 const decode13 = str => {
   return str.replace(/[a-zA-Z]/g, c => String.fromCharCode((c <= 'Z' ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26)).replace(/\^\&/g, '@');
 }
-protectEmail.innerHTML = decode13(codedEmail).split('').reverse().join('');
 
-// phone
-const protectPhone = document.querySelector('#contact .phone');
-const codedPhone = '1253-603)637(6+'
+//ROT5 (numbers)
 const decode5 = str => {
   return str.replace(/[0-9]/g, c => String.fromCharCode(57 >= (c = c.charCodeAt(0) + 5) ? c : c - 10));
 }
+
+// contact email
+const protectEmail = document.querySelector('#contact .email');
+const codedEmail = '>n/<zbp.gaheozw^&anugnabw>"zbp.gaheozw&^anugnabw:bgyvnz"=sreu n<'
+protectEmail.innerHTML = decode13(codedEmail).split('').reverse().join('');
+
+// contact phone
+const protectPhone = document.querySelector('#contact .phone');
+const codedPhone = '1253-603)637(6+'
 protectPhone.innerText = decode5(codedPhone).split('').reverse().join('');
+
+// form submission email
+const protectSubmit = document.querySelector('#contact .form_submit');
+codedSubmit = 'zbp.yvnzt^&ryvobz.gaheow/bv.rrecfzebs//:fcggu';
+protectSubmit.setAttribute('action', decode13(codedSubmit).split('').reverse().join(''));
