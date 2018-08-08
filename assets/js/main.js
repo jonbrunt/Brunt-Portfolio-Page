@@ -352,7 +352,7 @@ const decode5 = str => {
 
 // contact email
 const protectEmail = document.querySelector('#contact .email');
-const codedEmail = '>n/<zbp.gaheozw^&anugnabw>"zbp.gaheozw&^anugnabw:bgyvnz"=sreu n<'
+const codedEmail = '>n/<zbp.gaheozw^&anugnabw>"zbp.gaheozw^&anugnabw:bgyvnz"=sreu n<'
 protectEmail.innerHTML = decode13(codedEmail).split('').reverse().join('');
 
 // contact phone
