@@ -3,6 +3,7 @@
 	#banner {
 		@include vendor('align-items', 'center');
 		@include vendor('background-image', 'url("../../images/PyramidsBanner.jpg")');
+		// @include vendor('background-image', 'url("https://res.cloudinary.com/jonbrunt/image/upload/v1533894456/PyramidsBanner_x1msmj.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
