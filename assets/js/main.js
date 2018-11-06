@@ -364,3 +364,8 @@ protectPhone.innerText = decode5(codedPhone).split('').reverse().join('');
 const protectSubmit = document.querySelector('#contact .form_submit');
 codedSubmit = 'zbp.yvnzt^&ryvobz.gaheow/bv.rrecfzebs//:fcggu';
 protectSubmit.setAttribute('action', decode13(codedSubmit).split('').reverse().join(''));
+
+// Dynamically update copyright year
+const yearSpan = document.querySelector("#year");
+//  updates year using date object and built in method
+yearSpan.innerHTML = `${new Date().getFullYear()}`;
