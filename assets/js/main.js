@@ -357,7 +357,9 @@ protectEmail.innerHTML = decode13(codedEmail).split('').reverse().join('');
 
 // contact phone
 const protectPhone = document.querySelector('#contact .phone');
-const codedPhone = '1253-603)637(6+'
+// US iPhone
+// const codedPhone = '1253-603)637(6+'
+const codedPhone = '9610-287)059(6+'
 protectPhone.innerText = decode5(codedPhone).split('').reverse().join('');
 
 // form submission email
